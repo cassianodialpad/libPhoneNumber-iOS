@@ -139,7 +139,6 @@
 		9407259424BE768A0011AE05 /* libPhoneNumberShortNumber.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9407258B24BE768A0011AE05 /* libPhoneNumberShortNumber.framework */; };
 		9407259B24BE768A0011AE05 /* libPhoneNumberShortNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = 9407258D24BE768A0011AE05 /* libPhoneNumberShortNumber.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		940725A224BE769D0011AE05 /* libPhoneNumberiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34ACBB851B7122AC0064B3BD /* libPhoneNumberiOS.framework */; platformFilter = ios; };
-		940725A324BE769D0011AE05 /* libPhoneNumberiOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 34ACBB851B7122AC0064B3BD /* libPhoneNumberiOS.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		940725A924BE77420011AE05 /* NBShortNumberUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 940725A724BE77420011AE05 /* NBShortNumberUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		940725AA24BE77420011AE05 /* NBShortNumberUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 940725A824BE77420011AE05 /* NBShortNumberUtil.m */; };
 		940725AC24BF63050011AE05 /* NBShortNumberInfoTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 940725AB24BF63050011AE05 /* NBShortNumberInfoTest.m */; };
@@ -222,7 +221,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				940725A324BE769D0011AE05 /* libPhoneNumberiOS.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
